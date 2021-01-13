@@ -52,7 +52,7 @@
 /* punto 9 Hacé que los inputs con type 'text' tengan un fondo amarillo (vas a tener que buscarlo en Google)
 lo encontré en https://stackoverflow.com/questions/5617703/background-color-in-input-and-text-fields */
 
-    input[type="text"], textarea {
+    div input[type="text"], textarea {
         background-color: yellow;
     }
 
@@ -105,15 +105,19 @@ lo encontré en https://stackoverflow.com/questions/5617703/background-color-in-
 
 
 
+   /* punto 1 selector :hover para que cuando pases el mouse por encima de un párrafo, éste se ponga de color rojo. */
 
     p:hover {
         color: red;
     }
+   /* punto 2 Usá :active para que cuando aprietes el botón se le cambie el fondo a amarillo. */
+   button:active {
+    background-color: yellow;
+}
 
-    input:focus {
+
+   /* punto 3 Usá :focus para que cuando el input type text esté seleccionado para escribir le aparezca un borde grueso color verde. */
+   input:focus {
         border: 10px solid green;
     }
 
-    button:active {
-        background-color: yellow;
-    }

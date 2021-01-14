@@ -1,0 +1,41 @@
+/* punto 2 
+Dentro del body del html creá un div con id="container", 
+seleccionalo desde css, dale un width del 80% y un margin 0 auto para centrarlo. */
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* punto 4 En tu css, selecciona las imágenes y dales un width de 30%.
+   punto 5 Para que se separen un poco, dales un margin de 1.4%.*/
+
+img {
+    width: 30%;
+    margin: 1.4%;
+}
+
+p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    border-bottom: 2px solid red;
+    background-color: rgba(236, 246, 249, 0.55);
+    width: 26%;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+
+.credits {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+img:hover {
+    border: 1px solid greenyellow;
+    transform: scale(1.3);
+    position: relative;
+}
